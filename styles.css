@@ -1,0 +1,59 @@
+.heading {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.crud-btn {
+  margin-left: 5px;
+  padding: 2px 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: black;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.total {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
