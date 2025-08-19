@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="heading">PRODUCT LIST</h1>
+
+ <div class="form-container">
+  <input type="text" id="productName" placeholder="Product Name">
+  <input type="number" id="productQty" placeholder="Quantity" min="1">
+  <input type="number" id="productPrice" placeholder="Price per item" min="0">
+  <button onclick="addOrUpdateItem()" id="Btn" class="button">+ ADD</button>
+  <button onclick="cancelItem()" id="CancelBtn" class="button" style="display:none; background-color:red;">Cancel</button>
+</div>
+
+
+  <div id="productContainer"></div>
+  
+  <footer>
+    <p class="total">Total Quantity: <span id="totalQty">0</span></p>
+    <p class="total">Total Price: $<span id="totalPrice">0</span></p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
